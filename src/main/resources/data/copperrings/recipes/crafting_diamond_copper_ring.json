@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "copperrings:rings",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "copperrings:copper_shank"
+    }
+  ],
+  "result": {
+    "item": "copperrings:diamond_copper_ring",
+    "count": 1
+  }
+}

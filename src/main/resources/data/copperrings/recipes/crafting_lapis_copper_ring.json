@@ -1,0 +1,17 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "copperrings:rings",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_block"
+    },
+    {
+      "item": "copperrings:copper_shank"
+    }
+  ],
+  "result": {
+    "item": "copperrings:lapis_copper_ring",
+    "count": 1
+  }
+}
