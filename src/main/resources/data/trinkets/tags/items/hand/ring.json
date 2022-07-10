@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "copperrings:copper_ring",
+    "copperrings:diamond_copper_ring",
+    "copperrings:emerald_copper_ring",
+    "copperrings:gold_copper_ring",
+    "copperrings:iron_copper_ring",
+    "copperrings:lapis_copper_ring",
+    "copperrings:netherite_copper_ring",
+    "copperrings:redstone_copper_ring"
+  ]
+}
