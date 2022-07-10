@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "copperrings",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Copper Rings",
+  "description": "Adds copper rings for bonus effects on the player",
   "authors": [
-    "Me!"
+    "ZeroKun265"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/ZeroKun265/CopperRings",
+    "issues": "https://github.com/ZeroKun265/CopperRings/issues"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/copperrings/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "zerokun265.fabric.copperrings.CopperRings"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "copperrings.mixins.json"
   ],
 
   "depends": {
