@@ -18,8 +18,6 @@ public class RedstoneCopperRing extends TrinketItem {
 
     public Multimap<EntityAttribute, EntityAttributeModifier> getModifiers(ItemStack stack, SlotReference slot, LivingEntity entity, UUID uuid) {
         var modifiers = super.getModifiers(stack, slot, entity, uuid);
-        // +100% follow range
-        modifiers.put(EntityAttributes.GENERIC_FOLLOW_RANGE, new EntityAttributeModifier(uuid, "copperrings:follow_range", 1, EntityAttributeModifier.Operation.MULTIPLY_TOTAL));
         // +2 hearts(4hp)
         modifiers.put(EntityAttributes.GENERIC_MAX_HEALTH, new EntityAttributeModifier(uuid, "copperrings:max_health", 4, EntityAttributeModifier.Operation.ADDITION));
 
