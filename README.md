@@ -9,9 +9,10 @@ A Fabric mod that adds copper rings for bonus effects on the player
 
 ## I WILL NOT MAKE A FORGE PORT
 But I will backport to other fabric versions if anybody asks, altough it's not a priority for me
+You're welcome to do your own port if you want to
 
 ### Getting Started
-In order to craft your first ring you'll, of course, need a shank to place you beautiful gems on
+In order to craft your first ring you'll, of course, need a shank to place your beautiful gems on
 You can craft it like so:
 
 ![Copper Shank Crafting Recipe](https://raw.githubusercontent.com/ZeroKun265/CopperRings/1.19/images/crafting_shank.jpg)
@@ -19,6 +20,12 @@ You can craft it like so:
 After that just place a shank and a block in a crafting grid and you're done!
 
 ![All Rings' crafting recipes](https://raw.githubusercontent.com/ZeroKun265/CopperRings/1.19/images/rings_all.png)
+
+****
+###### Note:
+The rings will have totally different effects in the new versions, as i think i figured out how to apply status effects from the game when you wear them.
+Therefore enjoy the basic and totally unbalanced rings while they last
+****
 
 # Iron Copper Ring
 ![Iron Copper Ring](https://raw.githubusercontent.com/ZeroKun265/CopperRings/1.19/images/rings/iron.png)
