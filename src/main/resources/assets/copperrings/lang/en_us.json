@@ -7,5 +7,8 @@
   "item.copperrings.iron_copper_ring" : "Iron Copper Ring",
   "item.copperrings.lapis_copper_ring" : "Lapis Copper Ring",
   "item.copperrings.netherite_copper_ring" : "Netherite Copper Ring",
-  "item.copperrings.redstone_copper_ring" : "Redstone Copper Ring"
+  "item.copperrings.redstone_copper_ring" : "Redstone Copper Ring",
+  "block.copperrings.jeweler_station": "Jeweler Station",
+  "itemGroup.copperrings.copperrings": "Copper Rings",
+  "block.copperrings.tooltip.jewelerstation": "Make rings more cheaply!"
 }

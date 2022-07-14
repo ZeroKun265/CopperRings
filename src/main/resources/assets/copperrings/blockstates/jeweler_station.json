@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model":  "copperrings:block/jeweler_station"},
+    "facing=east":{"model":  "copperrings:block/jeweler_station", "y":  90},
+    "facing=south":{"model":  "copperrings:block/jeweler_station", "y":  180},
+    "facing=west":{"model":  "copperrings:block/jeweler_station", "y":  270}
+  }
+}

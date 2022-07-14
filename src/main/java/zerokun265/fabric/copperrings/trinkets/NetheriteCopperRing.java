@@ -16,6 +16,7 @@ public class NetheriteCopperRing extends TrinketItem {
         super(settings);
     }
 
+    // Method from the Trinkets Mod
     public Multimap<EntityAttribute, EntityAttributeModifier> getModifiers(ItemStack stack, SlotReference slot, LivingEntity entity, UUID uuid) {
         var modifiers = super.getModifiers(stack, slot, entity, uuid);
         // +50% knockback resistance

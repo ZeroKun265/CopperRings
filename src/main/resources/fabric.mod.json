@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "zerokun265.fabric.copperrings.CopperRings"
+    ],
+    "client": [
+      "zerokun265.fabric.copperrings.client.CopperRingsClient"
     ]
   },
   "mixins": [
