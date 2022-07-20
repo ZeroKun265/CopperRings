@@ -25,9 +25,7 @@
       "zerokun265.fabric.copperrings.client.CopperRingsClient"
     ]
   },
-  "mixins": [
-    "copperrings.mixins.json"
-  ],
+  
 
   "depends": {
     "fabricloader": ">=0.14.6",

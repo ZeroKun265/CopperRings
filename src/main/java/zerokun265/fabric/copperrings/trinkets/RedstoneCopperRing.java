@@ -3,12 +3,20 @@ package zerokun265.fabric.copperrings.trinkets;
 import com.google.common.collect.Multimap;
 import dev.emi.trinkets.api.SlotReference;
 import dev.emi.trinkets.api.TrinketItem;
+import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.ItemStack;
+import net.minecraft.text.Text;
+import net.minecraft.world.World;
 
+import javax.annotation.Nullable;
+import java.util.List;
 import java.util.UUID;
 
 public class RedstoneCopperRing extends TrinketItem {
@@ -16,12 +24,15 @@ public class RedstoneCopperRing extends TrinketItem {
         super(settings);
     }
 
-    // Method from the Trinkets Mod
-    public Multimap<EntityAttribute, EntityAttributeModifier> getModifiers(ItemStack stack, SlotReference slot, LivingEntity entity, UUID uuid) {
-        var modifiers = super.getModifiers(stack, slot, entity, uuid);
-        // +2 hearts(4hp)
-        modifiers.put(EntityAttributes.GENERIC_MAX_HEALTH, new EntityAttributeModifier(uuid, "copperrings:max_health", 4, EntityAttributeModifier.Operation.ADDITION));
+    @Override
+    public void tick(ItemStack stack, SlotReference slot, LivingEntity entity) {
+        entity.addStatusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 10, 1));
+    }
 
-        return modifiers;
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        tooltip.add(Text.translatable("item.copperrings.redstone_copper_ring.tooltip"));
+        tooltip.add(Text.translatable("item.copperrings.rings.tooltip.equip"));
+
     }
 }

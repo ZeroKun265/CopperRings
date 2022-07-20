@@ -1,27 +1,35 @@
 package zerokun265.fabric.copperrings.trinkets;
 
 import com.google.common.collect.Multimap;
-import dev.emi.trinkets.api.SlotAttributes;
 import dev.emi.trinkets.api.SlotReference;
 import dev.emi.trinkets.api.TrinketItem;
+import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.attribute.EntityAttribute;
-import net.minecraft.entity.attribute.EntityAttributeModifier;
-import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.ItemStack;
+import net.minecraft.text.Text;
+import net.minecraft.world.World;
 
-import java.util.UUID;
+import javax.annotation.Nullable;
+import java.util.List;
+
 
 public class CopperRing  extends TrinketItem {
     public CopperRing(Settings settings) {
         super(settings);
     }
 
-    // Method from the Trinkets Mod
-    public Multimap<EntityAttribute, EntityAttributeModifier> getModifiers(ItemStack stack, SlotReference slot, LivingEntity entity, UUID uuid) {
-        var modifiers = super.getModifiers(stack, slot, entity, uuid);
-        // +10% movement speed
-        modifiers.put(EntityAttributes.GENERIC_MOVEMENT_SPEED, new EntityAttributeModifier(uuid, "copperrings:movement_speed", 0.1, EntityAttributeModifier.Operation.MULTIPLY_TOTAL));
-        return modifiers;
+    @Override
+    public void tick(ItemStack stack, SlotReference slot, LivingEntity entity) {
+        entity.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 10, 1));
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        tooltip.add(Text.translatable("item.copperrings.copper_ring.tooltip"));
+        tooltip.add(Text.translatable("item.copperrings.rings.tooltip.equip"));
+
     }
 }

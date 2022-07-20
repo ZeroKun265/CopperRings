@@ -10,5 +10,15 @@
   "item.copperrings.redstone_copper_ring" : "Redstone Copper Ring",
   "block.copperrings.jeweler_station": "Jeweler Station",
   "itemGroup.copperrings.copperrings": "Copper Rings",
-  "block.copperrings.tooltip.jewelerstation": "Make rings more cheaply!"
+  "block.copperrings.tooltip.jewelerstation": "Make rings more cheaply!",
+
+  "item.copperrings.copper_ring.tooltip": "Grants §lSpeed§r",
+  "item.copperrings.diamond_copper_ring.tooltip": "Grants §lStrength§r",
+  "item.copperrings.emerald_copper_ring.tooltip": "Grants §lInvisibility§r and §lNight Vision§r",
+  "item.copperrings.gold_copper_ring.tooltip": "Grants §lAbsorption§r and §lHaste§r",
+  "item.copperrings.iron_copper_ring.tooltip": "Grants §lJump Boost§r and §lSlow Falling§r",
+  "item.copperrings.lapis_copper_ring.tooltip": "Grants §lDolphins Grace§r and §lWater Breathing§r",
+  "item.copperrings.netherite_copper_ring.tooltip": "Grants §lFire Resistance§r and §lResistance§r",
+  "item.copperrings.redstone_copper_ring.tooltip": "Grants §lSaturation§r and §lHealth Boost§r",
+  "item.copperrings.rings.tooltip.equip": "when equipped in the §1ring§r slot"
 }

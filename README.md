@@ -9,6 +9,7 @@ A Fabric mod that adds copper rings for bonus effects on the player
 
 ## I WILL NOT MAKE A FORGE PORT
 But I will backport to other fabric versions if anybody asks, altough it's not a priority for me
+
 You're welcome to do your own port if you want to
 
 ### Getting Started
@@ -29,28 +30,30 @@ Therefore enjoy the basic and totally unbalanced rings while they last
 
 # Iron Copper Ring
 ![Iron Copper Ring](https://raw.githubusercontent.com/ZeroKun265/CopperRings/1.19/images/rings/iron.png)
-- +25% Armor Toughness
+- Jump Boost 3
+- Slow Falling
 # Gold Copper Ring
 ![Gold Copper Ring](https://raw.githubusercontent.com/ZeroKun265/CopperRings/1.19/images/rings/gold.png)
-- +20% Attack Speed
+- Haste 2
+- Absorption
 # Diamond Copper Ring
 ![Diamond Copper Ring](https://raw.githubusercontent.com/ZeroKun265/CopperRings/1.19/images/rings/diamond.png)
-- +10% Movement Speed
-- +15% Attack Damage
+- Strength
 # Netherite Copper Ring
 ![Netherite Copper Ring](https://raw.githubusercontent.com/ZeroKun265/CopperRings/1.19/images/rings/netherite.png)
-- +50% Knockback Resistance
-- +75% Attack Knockback
+- Resistance 2
+- Fire Resistance 2
 # Lapis Copper Ring
 ![Lapis Copper Ring](https://raw.githubusercontent.com/ZeroKun265/CopperRings/1.19/images/rings/lapis.png)
-- +150% Luck
-- +15% Armor
+- Dolphin's Grace
+- Water Breathing
 # Copper Ring
 ![Copper Copper Ring](https://raw.githubusercontent.com/ZeroKun265/CopperRings/1.19/images/rings/copper.png)
-- +10% Movement Speed
+- Speed 2
 # Redstone Copper Ring
 ![Redstone Copper Ring](https://raw.githubusercontent.com/ZeroKun265/CopperRings/1.19/images/rings/redstone.png)
-- +2 Hearts (4 HP)
+- Saturation 2
 # Emerald Copper Ring
 ![Emerald Copper Ring](https://raw.githubusercontent.com/ZeroKun265/CopperRings/1.19/images/rings/emerald.png)
-- +400% Movement Speed
+- Night Vision
+- Invisibility
