@@ -1,6 +1,6 @@
 ![Banner](https://raw.githubusercontent.com/ZeroKun265/CopperRings/1.19/images/banner.jpg)
 [![Requires Fabric API](https://i.imgur.com/Ol1Tcf8.png)](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
-
+###### Requires [Trinkets (Fabric)](https://github.com/emilyploszaj/trinkets) version 3.4.0+ 
 ![Enviroment: both](https://img.shields.io/badge/environment-both-4caf50?style=flat-square)
 
 ![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-blueviolet?style=for-the-badge)
