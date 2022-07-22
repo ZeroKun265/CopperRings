@@ -20,6 +20,7 @@ import java.util.List;
 import java.util.UUID;
 
 public class GoldCopperRing extends TrinketItem {
+    private int absorption_timer = 0;
     public GoldCopperRing(Settings settings) {
         super(settings);
     }
@@ -27,7 +28,16 @@ public class GoldCopperRing extends TrinketItem {
     @Override
     public void tick(ItemStack stack, SlotReference slot, LivingEntity entity) {
         entity.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, 10, 1));
-        entity.addStatusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 10, 0));
+        if(absorption_timer == 0) {
+            entity.addStatusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 150, 0));
+            absorption_timer = 1;
+
+        } else {
+            absorption_timer += 1;
+        }
+        if (absorption_timer == 100) {
+            absorption_timer = 0;
+        }
     }
 
     @Override
