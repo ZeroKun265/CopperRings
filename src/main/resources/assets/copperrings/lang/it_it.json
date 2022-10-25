@@ -1,0 +1,24 @@
+{
+  "item.copperrings.copper_shank" : "Supporto in rame",
+  "item.copperrings.copper_ring" : "Anello di rame",
+  "item.copperrings.diamond_copper_ring" : "Anello di rame con diamante",
+  "item.copperrings.emerald_copper_ring" : "Anello di rame con smeraldo",
+  "item.copperrings.gold_copper_ring" : "Anello di rame e oro",
+  "item.copperrings.iron_copper_ring" : "Anello di rame e ferro",
+  "item.copperrings.lapis_copper_ring" : "Anello di rame con lapislazzuli",
+  "item.copperrings.netherite_copper_ring" : "Anello di rame con netherite",
+  "item.copperrings.redstone_copper_ring" : "Anello di rame con redstone",
+  "block.copperrings.jeweler_station": "Stazione del gioiellere",
+  "itemGroup.copperrings.copperrings": "Anelli di rame",
+  "block.copperrings.tooltip.jewelerstation": "Fai anelli meno costosi!",
+
+  "item.copperrings.copper_ring.tooltip": "Ottieni §lVelocità§r",
+  "item.copperrings.diamond_copper_ring.tooltip": "Ottieni §lForza§r",
+  "item.copperrings.emerald_copper_ring.tooltip": "Ottieni §lInvisibilità§r e §lVisione notturna§r",
+  "item.copperrings.gold_copper_ring.tooltip": "Ottieni §lAssorbimento§r e §lSollecitudine§r",
+  "item.copperrings.iron_copper_ring.tooltip": "Ottieni §lSalto ampliato§r e §lCaduta lenta§r",
+  "item.copperrings.lapis_copper_ring.tooltip": "Ottieni §lGrazia del delfino§r e §lApnea§r",
+  "item.copperrings.netherite_copper_ring.tooltip": "Ottieni §lResistenza al fuoco§r e §lResistenza§r",
+  "item.copperrings.redstone_copper_ring.tooltip": "Ottieni §lSazietà§r e §lSalute ampliata§r",
+  "item.copperrings.rings.tooltip.equip": "quando è equipaggiato nello slot dell'§1anello§r"
+}
